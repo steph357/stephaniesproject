@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Website</title>
+<link rel="stylesheet" href="steph.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+<nav>
+    <div class="navbar">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+    </div>
+</nav>
+</header>
+
+<!--hero section-->
+<section id="home" class="hero">
+  <div class="hero-content">
+  <h1>Welcome to Stephanie"s Portfolio</h1>
+  <h4>Dive into a showcase of my skills and projects,where creativity meets expertise.Explore a digital gallery</h4> 
+    <h4>where each project tells a unique story of dedication and innovation.From design to development,witness the </h4>
+    <h4>culmination of passion and hard work.Join me on this visual journey through my world of creations,where every</h4>
+    <h4>pixel and line of code speaks volumes about my commitment to excellence.Lets embark on a tour of my digital</h4>
+    <h4>portfolio and unlock the door to endless possibilities together!</h4>
+  <a href="#projects" class="btn">View Projects</a>
+  <p><img src="heroimg.jpeg"alt=heroimage"></p>
+  </div>
+  </section>
+
+  <!--About me section-->
+<section id="about" class="about">
+    <div class="about-content">
+        <h2>About Stephanie</h2>
+    <p>Stephanie is a very passionate individual who finds joy in the art of cooking and the strategy of chess.
+    When shes not whipping up delicious dishes or contemplating her next chess move,you can find her dancing away
+    to the rhythms of life.Beyond my love for culinary arts and the game of chess,my heartbeats for web design.
+    Creating visually stunning and functional websites is where her creativity truly shines though she might just
+    be a beginner,she is learning fast enough.Join me on this exciting journey of flavors,tactics,moves and designs 
+    </p>
+    </div>
+</section>
+    
+<!--project section-->
+<section id="project" class="=projects">
+<h2>My work</h2>
+<div class="filter-buttons">
+    <button onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('Age-calculator')">Age-calculator</button>
+    <button onclick="filterProjects('rock paper scissors')">rock paper scissors</button>
+</div>
+<div class="project-grid">
+    <grid><h3>Age-calculator</h3><img src="agecalc.jpeg"><p>This calculates your age when date of birth is provided.</p><p><a href="codingproject/agecalc.html">View project</a></p></grid>
+    <br>
+    <grid><h3>rock paper scissors</h3><img src="rockimg.jpeg"><p>This creates a rock, paper, and scissors game</p><p><a href="codingproject/rock.html">View project</a></p></grid>
+</div>
+</section>
+<!--skills section-->
+<section id="skill" class="skills"
+<h2>My Skills</h2>
+<tr>
+    <td>Web development</td>
+</tr>
+<tr>
+    <td>UI/UX designer</td>
+</tr>
+</section>
+<!--Experience section-->
+<section id="exp" class="exps"
+<h2>My Experience</h2>
+<tr>
+    <td>New Horizon Resource center></td>
+    <td>one year</td>
+</tr>
+
+<section>
+    <!--contact section-->
+    <section id="contact" class="contact"
+    <div class="contact-form">
+        <h2>Contact me</h2>
+        <form id="contactform" action="#" method="post">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="date-time">
+        <span id="date"></span>
+        <span id="time"></span>
+    </div>
+    <div class="copyright">
+        &copy; <span id="year">2024</span>
+        Stephanie's Portfolio. All rights reserved
+    </div>
+</footer>
+  <!--javascript-->
+<script src="steph.js">
+
+</script>
+</body>
+</html>
